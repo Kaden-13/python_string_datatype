@@ -31,7 +31,7 @@ print("Second letter of last name:", myLastName[-8])
 #       - first two letter of your first name (use the +index)
 print("First two letters of first name:", myFirstName[0:2])
 #       - second two letter of your last name (use the -index)
-print("Second two letters of last name:", myLastName[-8:-6])
+print("Second two letters of last name:", myLastName[-2:])
 
 
 
@@ -40,7 +40,7 @@ print("Second two letters of last name:", myLastName[-8:-6])
 # TODO Combining Strings
 #   - Print the following items (one per line) (print using variables)
 #       -first name and last name combined
-print(myFirstName, myLastName)
+print(myFirstName, myLastName) #CONCATINATION
 #       -first name six times
 for i in range (6):
     print(myFirstName)
