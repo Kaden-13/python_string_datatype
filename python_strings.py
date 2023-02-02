@@ -59,15 +59,15 @@ print(myFirstName, myLastName, "was born in", myYearOfBirth, myFirstName, "enjoy
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
 #       - possesive first name -birth year is- year of birth 
-print(myFirstName, "birth year is", myYearOfBirth)
+print(myFirstName + '\'s' + " birth year is " + str(myYearOfBirth))
 #       - tab last name current year
-print("",myLastName, currentYear)
+print("\t",myLastName, currentYear)
 
 # TODO String methods
 #   - Print the following items (one per line) (print using variables)
 #       - first name and last name in lower case
-print(myFirstName.casefold(), myLastName.casefold())
+print(myFirstName.casefold(), myLastName.casefold()) #method
 #       - length of last name
-print(myLastName.__len__())
+print(len(myLastName)) #function
 #       - first name and last name all in upper case
-print(myFirstName.upper(), myLastName.upper())
+print(myFirstName.upper(), myLastName.upper()) #method
